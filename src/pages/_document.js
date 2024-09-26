@@ -1,4 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import NavBar from "./components/navbar";
+import Footer from "./components/footer";
+import { Container } from "react-bootstrap";
 
 export default function Document() {
   return (
@@ -11,3 +14,5 @@ export default function Document() {
     </Html>
   );
 }
+
+//https://nextjs.org/docs/pages/building-your-application/routing/custom-document
