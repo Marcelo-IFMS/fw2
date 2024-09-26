@@ -1,1 +1,6 @@
-@import url('bootstrap/dist/css/bootstrap.min.css')
+@import url('bootstrap/dist/css/bootstrap.min.css');
+.conteudo{
+    min-height: 70vh;
+    height: auto !important;
+    height: 100%;
+  }
