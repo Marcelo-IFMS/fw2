@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
     <Container>
         <Navbar expand="lg" className="rounded navbar bg-dark navbar-dark px-3 gradient-custom">
-            <Navbar.Brand href="#home">6V</Navbar.Brand>
+            <Navbar.Brand href="/">6V</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
