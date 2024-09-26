@@ -1,6 +1,6 @@
 
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-//https://www.youtube.com/watch?v=B0vZGTGgIdc
+//https://www.youtube.com/watch?v=B0vZGTGgIdc Router: https://www.youtube.com/watch?v=0wJCxEDDetE
 export default function NavBar() {
     return (
     <Container>
