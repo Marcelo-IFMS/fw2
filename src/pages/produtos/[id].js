@@ -2,8 +2,7 @@ import { useRouter } from "next/router"
 import { Container } from "react-bootstrap"
 import NavBar from "../components/navbar"
 import Footer from "../components/footer"
-
-export default function Page() {
+export default function ProdutosId() {
     const router = useRouter()
     return <>
         <NavBar />
@@ -12,5 +11,4 @@ export default function Page() {
         </Container>
         <Footer />
     </>
-
 }

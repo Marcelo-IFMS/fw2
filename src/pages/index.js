@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; //colocar na globals.css @import url('bootstrap/dist/css/bootstrap.min.css');
 import { Container } from "react-bootstrap";
 import Footer from './components/footer';
 import NavBar from './components/navbar';
 
 
 
-function Index() {
+export default function Index() {
   return (
     <div>
       <NavBar />
@@ -18,18 +17,4 @@ function Index() {
     </div>
   )
 }
-export default Index;
 
-/* f1 
-
-
-html.format.contentUnformatted 
-
-"emmet.triggerExpansionOnTab": true,
-    "files.associations": {
-        "*html": "html"
-    },
-    "emmet.useInlineCompletions": true
-
-    https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together
-    */
