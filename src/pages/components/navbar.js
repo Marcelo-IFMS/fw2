@@ -1,4 +1,3 @@
-
 import { Container, Nav, Navbar } from 'react-bootstrap';
 //https://www.youtube.com/watch?v=B0vZGTGgIdc
 export default function NavBar() {
