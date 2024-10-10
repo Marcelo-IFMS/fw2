@@ -4,7 +4,9 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 import Table from 'react-bootstrap/Table';
 
-function Users({ users }) {
+export default function Users({ users }) {
+    console.log(users);
+    
     return (
         <div>
             <NavBar />
@@ -25,9 +27,9 @@ function Users({ users }) {
                         {users.map((user) => (
                             <tr key={user.id}>
                                 <td>{user.id}</td>
-                                <td>{user.name}</td>
+                                <td>{user.nome}</td>
                                 <td>{user.email}</td>
-                                <td>{user.username}</td>
+                                <td>{user.login}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -38,8 +40,7 @@ function Users({ users }) {
     )
 }
 export async function getServerSideProps() {
-    const res = await fetch('https://jsonplaceholder.typicode.com/users')
+    const res = await fetch('http://localhost:3000/api/usuarios/data')
     const repo = await res.json()   
     return { props: { users: repo } }
 }
-export default Users;
