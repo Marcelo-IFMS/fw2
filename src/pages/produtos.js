@@ -25,7 +25,7 @@ export default function Produtos({ produdos }) {
                                 <td>{prod.titulo}</td>
                                 <td>{prod.categoria}</td>
                                 <td>{prod.descricao}</td>
-                                <td>{prod.preco}</td>
+                                <td>{prod.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL',minimumFractionDigits: 2})}</td>
                             </tr>
                         ))}
                     </tbody>

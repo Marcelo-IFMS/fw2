@@ -5,7 +5,7 @@ import Footer from './components/footer';
 import Table from 'react-bootstrap/Table';
 
 export default function Users({ users }) {
-    console.log(users);
+    
     
     return (
         <div>
