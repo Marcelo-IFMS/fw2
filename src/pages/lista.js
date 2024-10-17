@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem, Container } from "react-bootstrap";
+import { Accordion, Container } from "react-bootstrap";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 
@@ -25,12 +25,12 @@ export default function Lista() {
         <div>
             <NavBar />
             <Container className="conteudo">
-                <h1>Json</h1>
+                <h1>Lista</h1>
                 {state.map(post =>
                     <div key={post.id}>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header><b> {post.titulo}</b></Accordion.Header>
+                                <Accordion.Header> {post.titulo}</Accordion.Header>
                                 <Accordion.Body>
                                     {post.conteudo}
                                 </Accordion.Body>
