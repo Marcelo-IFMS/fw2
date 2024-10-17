@@ -24,8 +24,8 @@ export default function Lista() {
 
         <div>
             <NavBar />
-            <Container className="conteudo">
-                <h1>Lista</h1>
+            <Container className="conteudo mb-3">
+                <div className="text-center fs-4 m-3 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">Notícias</div>
                 {state.map(post =>
                     <div key={post.id}>
                         <Accordion defaultActiveKey="0">
