@@ -18,7 +18,7 @@ export default function Efeito() {
 
         <NavBar />
         <Container>
-            Efeito de Promessa {(mundo === "" ? "<carregando>" : mundo)}
+            Efeito de Promessa {(mundo === "" ? <img src="../loading.gif" width={20} height={20} />: mundo)}
         </Container>
         <Footer />
     </>
