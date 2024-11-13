@@ -17,8 +17,8 @@ export default function Page2({ repo,repo2 }) {
     <main>
       <NavBar />
       <Container>
-        <p>{repo.id}</p> 
-        <p>{repo2.id}</p> 
+        <p>{repo.name}</p> 
+        <p>{repo2.category}</p> 
       </Container>
       <Footer />
     </main>
