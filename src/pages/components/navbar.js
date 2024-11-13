@@ -14,6 +14,9 @@ export default function NavBar() {
                         <Nav.Link href="/produtos">Produtos</Nav.Link>
                         <Nav.Link href="/sobre">Sobre</Nav.Link>
                         <Nav.Link href="/users">Usuários</Nav.Link>
+                        <Nav.Link href="/produtoscard">ProdutosCard</Nav.Link>
+                        <Nav.Link href="/pages">Pages</Nav.Link>
+                        <Nav.Link href="/pages2">Pages2</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
