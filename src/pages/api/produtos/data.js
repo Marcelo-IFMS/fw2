@@ -4,11 +4,6 @@ import {esporte} from "./produtos";
 export default function handler(req, res) {
     res.status(200).json(esporte)
 }
-
-
-
-
-
 /*
 export default function handler(req, res) {
   if (req.method === 'POST') {
