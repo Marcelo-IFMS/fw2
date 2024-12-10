@@ -1,11 +1,6 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(169, 197, 247, 1) 0%,
-    rgba(62, 121, 232, 1) 78%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(224,254,225,1) 0%, rgba(128,232,62,1) 82%, rgba(2,103,36,1) 100%);
   min-height: 100vh;
 }
 .conteudo {
