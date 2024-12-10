@@ -40,7 +40,7 @@ export default function Users({ users }) {
     )
 }
 export async function getServerSideProps() {
-    const res = await fetch('http://localhost:3000/api/usuarios/data')
+    const res = await fetch('https://fw2-seven.vercel.app/api/usuarios/data')
     const repo = await res.json()   
     return { props: { users: repo } }
 }
