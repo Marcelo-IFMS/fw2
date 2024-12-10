@@ -21,7 +21,7 @@ export default function ProdutosCard({ produdos }) {
     )
 }
 export async function getServerSideProps() {
-    const res = await fetch('http://localhost:3000/api/produtos/data')
+    const res = await fetch('https://fw2-seven.vercel.app/api/produtos/data')
     const repo = await res.json()
     return { props: { produdos: repo } }
 }
